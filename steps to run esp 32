@@ -1,0 +1,27 @@
+1. first we will download arduino IDE
+
+2. second we will go to file > preferences 
+
+3. we will go to additional board manager URLs and paste this link to it:
+
+https://dl.espressif.com/dl/package_esp32_index.json
+
+click ok 
+
+then we will go to tools > board > board manager 
+
+after that we will search for ESP 32 and install the pakage 
+
+then we will go again to tools > board > ESP32 Arduino 
+
+now plug the usb to the kit 
+
+go back again to tools > board > ESP32 Arduino > WEMOS D1 MINI ESP32 
+
+now chose the port from tools > PORTNAME 
+
+finally we will blink the ESP32 by going to file > examples > 01.basic > blink
+
+run the program from the left top of the page by clicking on the arrow icon.
+
+and by that we have run ESP32.
